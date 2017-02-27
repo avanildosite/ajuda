@@ -1,0 +1,351 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//pt-BR">
+<HTML>
+<!-- Pagina padrao para exibir os produtos   -->
+
+<HEAD>
+
+   <BASE href="/home/avanilldo/produto-avaeletro/loja/">
+   <META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE>Coloque o nome do produto e mude o titolo da pagina | Pagina Padrao </TITLE>
+	<link type='text/css' rel='stylesheet' href='stilo.css'>      
+   <script type="text/javascript" src="js/ava.js"></script>
+<!-- celularCPU	 MTK6575
+Sistema Operacional	 Android 4.0 9253301 -->
+
+
+<script type="text/javascript">
+   //funcao para exibir Informacoes bancaria
+function pagina(obj) { 
+ var el = document.getElementById(obj); 
+ if ( el.style.display != 'none' ) { 
+ el.style.display = 'none'; 
+ } 
+ else { 
+ el.style.display = ''; 
+ } 
+ } 
+
+
+//SuckerTree Vertical Menu 1.1 (Nov 8th, 06)
+//By Dynamic Drive: http://www.dynamicdrive.com/style/
+
+
+var menuids=["suckertree1"] //Enter id(s) of SuckerTree UL menus, separated by commas
+function buildsubmenus(){
+  for (var i=0; i<menuids.length; i++){
+  var ultags=document.getElementById(menuids[i]).getElementsByTagName("ul")
+  for (var t=0; t<ultags.length; t++){
+  ultags[t].parentNode.getElementsByTagName("a")[0].className="subfolderstyle"
+  if (ultags[t].parentNode.parentNode.id==menuids[i]) //if this is a first level submenu
+  ultags[t].style.left=ultags[t].parentNode.offsetWidth+"px" //dynamically position first level submenus to be width of main menu item
+  else //else if this is a sub level submenu (ul)
+  ultags[t].style.left=ultags[t-1].getElementsByTagName("a")[0].offsetWidth+"px" //position menu to the right of menu item that activated it
+  ultags[t].parentNode.onmouseover=function(){
+  this.getElementsByTagName("ul")[0].style.display="block"
+}
+  ultags[t].parentNode.onmouseout=function(){
+  this.getElementsByTagName("ul")[0].style.display="none"
+}
+}
+  for (var t=ultags.length-1; t>-1; t--){ //loop through all sub menus again, and use "display:none" to hide menus (to prevent possible page scrollbars
+  ultags[t].style.visibility="visible"
+  ultags[t].style.display="none"
+}
+}
+}
+
+if (window.addEventListener)
+    window.addEventListener("load", buildsubmenus, false)
+else if (window.attachEvent)
+    window.attachEvent("onload", buildsubmenus)
+
+
+</script>
+
+
+
+
+</HEAD>
+
+
+<BODY LANG="pt-BR" DIR="LTR" >
+<!-- Corpop dda pagina       -->
+
+<div id=topo name="principal">
+
+<TABLE WIDTH=100%>
+<TR> <TD WIDTH="13%" HEIGHT=81 >
+	
+<!-- Logo tipo avaeletro        
+<P ALIGN=CENTER STYLE="background: transparent"> <FONT SIZE=7> Ava<FONT COLOR="ff0000"> <FONT FACE="Century Schoolbook L, serif"><FONT SIZE=7 STYLE="font-size: 54pt">E</FONT></FONT></FONT>letro</FONT></P>  
+-->
+
+<a href="index.html">  <img src="image/logo.png" alt="Logo tipo" width="100%" height="100%"> </a>  
+</TD>
+
+<TD WIDTH=123 bgcolor="#f00">
+		<!-- Paner da pagina       -->	 
+ 
+ <blink>
+  <font size="60"  color="#0f0" style="{text-shadow: 0.1em 0.1em 0.05em #333}">Frete Gratuito Para Todo Brasil  </font>
+  </blink>
+
+</TD>
+</TR>
+
+
+<!--Inicio da tabela de dados html-->
+</table>
+<!--_________________________________________________________________________________________________-->
+
+<!-- Menu horizontal   
+
+<img src="caminho da imagem que desejas aumentar jpg, png etc" width="150" height="150" name="aumentar_imagem"
+onmouseover="aumentar_imagem.width='300';aumentar_imagem.height='300';"
+onmouseout="aumentar_imagem.width='150';aumentar_imagem.height='150';" />
+_______________________________________________________________
+cooque os links das paginas dáqui em diante  estrutura é 
+-->
+
+<div id='NavbarMenu'>
+<div id='NavbarMenuleft'>
+<ul id='nav'>
+<li><a href="index.html">Pagina Inicial</a></li>
+<li>
+<a href='index.html'>Home</a>
+
+<ul>
+
+<!--no lugar de '#' coloque oslink como {<a herf='link' texto ou imagem >  </a> } -->
+
+<li><a href='celular/index.html'>Celurar </a></li>
+<li><a href='automovel/index.html'>Automotivo</a></li>
+<li><a href='casa-e-jardim/index.html'>casa Jardim</a></li>
+<li><a href='relogio/index.html'>Relogio</a></li>
+<li><a href='promocoes/index.html'>Oferta</a></li>
+</ul>
+
+</div>
+</div>
+<div style='clear:both;'/>	
+<!--_________________________________________________________________________________________________-->
+<!-- <== menu esquerdo começa aqui-->
+<div align="left" name="menu1" id="menu-lateral">
+
+<div class="suckerdiv">
+<ul id="suckertree1">
+<!--Link de categoria-->
+<div id=h2 class="titolo">
+   Categoria
+ </div>  
+
+<li><a href="celular/index.html">Celular</a></li>
+<li><a href="automevel/index.html">Automotivo</a> </li>
+<li><a href="casa-e-jardim/index.html">Casa e Jardim</a></li>
+<li><a href="relogio/index.html">Relogio</a></li>
+<li><a href="assesorio-celular/index.html">Assesorio Celular</a></li>
+<li><a href="femenino/index.html">Artigo Feminino</a></li>
+<li><a href="masculino/index.html">Artigo Masculino </a></li>
+<li><a href="pescaria/index.html">Pescaria</a></li>
+<li><a href="esporte/index.html">Esporte</a></li>
+<li><a href="promocoes/index.html">Promoções</a></li>
+</ul>
+<!--Informacoes visuais-->
+</div>
+
+<div id=h1 class="titolo">
+   Destaque
+</div>      
+
+<!--Produto rolando de baixo bara cima em destaqui-->
+<marquee direction=up onmouseover="this.stop();"  onmouseout="this.start();" <P align="center"><center> <font color=#7B68EE> 
+<a href="#"><img src="destaque/i4.jpg" width="100%" > </a> </font></p> 
+imagem 1
+ <a href="#"><img src="destaque/i1.jpg" width="100%" alt="Coloque aqui descricao da figura" > </a>
+imagem 2
+ <a href="#"><img src="destaque/i2.jpg" width="100%" alt="Coloque aqui descricao da figura" >  </a>
+imagem 3
+ <a href="#"><img src="destaque/i3.jpg" width="100%" alt="Coloque aqui descricao da figura" > </a>
+Imagem 4
+<a href="#"><img src="destaque/i4.jpg" width="100%" alt="Coloque aqui descricao da figura" > </a>
+</marquee>
+
+<div id=h1 class="titolo">
+   Page com
+</div>      
+ <img src="image/moip.jpeg" width="100%" alt="Coloque aqui descricao da figura" >
+
+<!-- 
+Cria lista de email para reportar noticia
+-->
+<div id=h2 class="lista">
+Assinar Catalogo
+</div>      
+<form method="post" action="Coloque o distino aqui">
+<pre>
+Seu Nome
+<input type="text" name="email" size="16">
+E-mail: 
+<input name="email" type="text" size="16">
+<input type="submit" value=" Enviar ">
+</pre>
+</form>
+</div>
+
+<!--Fim menu esquerdo
+_________________________________________________________________________________________________-->
+
+<!--informacoes de protuto do site sem div-->
+<!--Coloque aqui o conteudo do site-->
+<table cellspacing="5" cellpadding="2" border="1">
+<tr>
+<TD  valign="top"> 
+<!--Imagem mostrada no tamanho de 450x450-->
+<img src="celular/i1/i1.jpg" id="imagem" width="100%" height="450"alt="Descrição da figura">
+
+<div id="qua3">
+<br>
+<!--Imagem miniatura 4 imagem  defina o endereco de imagem do servidor-->   
+   <a href="javascript: imagems('celular/i1/i1.jpg')"><img src="celular/i1/i1.jpg" alt="Descrição da figura"  width="50" height="50"/></a>
+   <a href="javascript: imagems('celular/i1/i2.jpg')"><img src="celular/i1/i2.jpg" alt="Descrição da figura"  width="50" height="50"/></a>  
+   <a href="javascript: imagems('celular/i1/i3.jpg')"><img src="celular/i1/i3.jpg" alt="Descrição da figura"  width="50" height="50"/></a>   
+   <a href="javascript: imagems('celular/i1/i4.jpg')"><img src="celular/i1/i4.jpg" alt="Descrição da figura"  width="50" height="50"/></a>   
+   <a href="javascript: imagems('celular/i1/i5.jpg')"><img src="celular/i1/i5.jpg" alt="Descrição da figura"  width="50" height="50"/></a>   
+   <a href="javascript: imagems('celular/i1/i6.jpg')"><img src="celular/i1/i6.jpg" alt="Descrição da figura"  width="50" height="50"/></a>   
+</div>
+
+<hr> 
+<Font color=#ff0000>
+<!--Area de configuracao de pagamentos  pagamento -->   
+
+<!--pagamento moip 
+<strong>Pagar Com Moip</strong>
+<form method='post' action='https://www.moip.com.br/PagamentoSimples.do' target='_blank'>
+   <input type='hidden' name='id_carteira' value='avanildo'/>
+   <input type='hidden' name='valor' value='56000'/>
+   <input type='hidden' name='nome' value='celular-955301'/>
+   <input type='image' name='submit' src='image/moip.png' width=150  alt='Page com Moip' style="box-shadow: 0 0 6px 6px #000000" border='0' />
+</form>
+<hr>
+
+
+<strong>Pagar Com Paypal</strong>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_Blank">
+   <input type="hidden" name="cmd" value="_s-xclick">
+   <input type="hidden" name="hosted_button_id" value="WS5PZ4SAV72EG">
+   <input type="image" src="image/botaopaypal.png" width=150 style="box-shadow: 0 0 6px 6px #000000" left="30" border="0" name="submit" alt="PayPal - A maneira mais fácil e segura de efetuar pagamentos online!">
+</form>
+
+deposito em conta -->   
+
+<div id="qua3">
+
+<div id="deposito" style="display:none" > 
+<hr>
+<strong>Informacões Para pagamento  </strong> <br>
+<hr>
+<pre>
+<Font color=#000> <h2> SELECIONE A FORMA DE PAGAMENTO </h2>
+
+
+</pre>
+</div> 
+</div>
+
+
+
+
+
+</font>
+<br>
+<hr>
+<!--Informacoes de envio fornecedore etc-->
+<em>OBS IMPORTANTE:</em>
+<br>
+<pre>
+    Todos os produtos deste site são importado. 
+     Nossos produtos são de ótima qualidade
+     todos testados antes do envio.
+   
+    Todos os nossos produto pagam taxa de importaçao
+    devido ao metodo de  envio se rapido. 
+
+</pre>
+</TD>
+
+<!-- descriçao dos pprodutos  -->
+<TD valign="top" width="400">
+   
+
+<strong>comentario do produto </strong> <br>
+<hr>
+<br><strong>Especificações Gerais</strong><br>
+<br>
+<br>
+<br>
+<strong>Tempo de entrega de 15 a 45 dias<br> </strong> 
+ 
+<br>  
+ 
+
+</td>
+
+</tr>
+ 
+</table>     
+
+<!-- fim do conteudo do meio da pagina_________________________________________________________________-->
+
+
+<!-- começa area do roda pe da pagina-->
+
+
+
+<div id="roda-pe" name="roda-pe" >
+
+<!--conteudo do roda-pe-->
+<table cellspacing="5" cellpadding="0" >
+<tr>
+<TD>
+   <h3> Dados</h3>
+   <a href="#">Sobre nos</a> <br>
+    <a href="#">Contate-nos</a><br>
+    <a href="#">Termo e condições</a><br>
+</td>
+
+<TD>
+   <h3> Informações gerais</h3>
+   <a href="#">Como comprar</a><br>
+   <a href="#">Envio e pagamento</a> <br>
+   <a href="#">Duvidas</a><br>
+
+</td>
+
+ 
+
+</tr>
+ 
+
+
+</table>     
+
+
+
+
+<!--Imagem de roda pe-->
+
+<img src="image/rodape.jpg" width="100%" height="50%">
+  
+Loja 1.0  avaeletro@gmail.com
+ 
+ <br>
+
+</div> <!--roda-pe-->
+</div> <!--Fim da pagina-->
+
+</div> <!--Fim da div principal-->
+<!--_________________________________________________________________________________________________-->
+<!--Fim da pagina-->
+</body>
+
+</HTML>

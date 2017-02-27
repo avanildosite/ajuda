@@ -1,0 +1,44 @@
+<?php
+// funcão para enviar email em php 
+
+
+
+if(!empty($_POST)){
+$mensagem = $_POST['nome'];
+
+$headers = "MIME-Version: 1.1\n";
+$headers .= "Content-type: text/plain; charset=utf-8 \n"; //email enviado em texto simples 
+//$headers .= "Content-type: text/html; charset=utf-8 \n";//email enviado em html
+$headers .= "From: <".$_POST['email']."> \n"; // remetente
+$headers .= "Return-Path: Formilario de contato <contato@avanildo.com.br> \n";
+
+	$mensagem = "Contato via site - avanildo.com.br \n";
+	$mensagem.= "Nome: ".$_POST['nome']." \n";
+	$mensagem.= "Email: ".$_POST['email']." \n";
+	$mensagem.= "Telefone: ".$_POST['fone']." \n";
+	$mensagem.= "Mensagem:". $_POST['mensagem'];
+	$a=$_POST['nome']." fez um pergunta no site Avanildo.com.br";
+
+
+
+
+// esta tudo funcionando no servidor
+	if(mail("avanildo.macedo@gmail.com", $a, $mensagem,$headers)){
+		echo "
+		<script type=\"text/javascript\">
+		alert(\"Sua mensagem foi enviada com sucesso, em breve entraremos em contato muito obrigado.\");
+	      location.href = \"index.php\";
+		</script>\n";
+	}
+	else{
+		echo "<script type=\"text/javascript\">
+		          alert(\"Ocorreu um erro ao tentar enviar sua mensagem.\");
+				    history.go(-1);
+		
+		     </script>\n";
+	}
+}
+else{
+	header("Location: index.php ");
+}
+?> 

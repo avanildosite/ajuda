@@ -1,0 +1,18 @@
+Rascunho da loja virtual dropship em html do avanildo
+=================================
+pagina inicial
+  index.html
+  termos.html
+  info.html 
+  roboot.txt
+  map.xml
+
+cada  categoria tera sua pasta 
+pastas 
+       celular 
+              index.html //gerencia os produtos da pasta
+              p0x.html    //discrisao dos produtos   
+                    ix       // pasta das imagem
+                    dentro das pasta ix tera os arquivos de imagem ix.jpg
+                    discrição dos produto sera nos proprios htmls
+         

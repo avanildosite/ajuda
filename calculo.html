@@ -1,0 +1,68 @@
+<html>
+    <title></title>
+     
+<style type="text/css">
+    #popup{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    width: 450px;
+    height: 400px;
+    padding: 20px 20px 20px 20px;
+    border-width: 5px;
+    border-style: solid;
+    background: #ffffa0;
+    display: none;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 5px 5px 5px 5px #000000;    
+}
+
+</style>
+  
+  
+    <script language="javascript" type="">
+    // Função que fecha o pop-up ao clicar no link fechar
+    function fechar(){
+    document.getElementById('popup').style.display = 'none';
+    }
+    // Aqui definimos o tempo para fechar o pop-up
+    
+function abrir(){
+    document.getElementById('popup').style.display = 'block';
+   
+    // setTimeout ("fechar()", 10000);
+  }
+  
+function cancelar(){
+    document.getElementById('popup').style.display = 'none';
+   }
+  
+      </script>
+
+<body onLoad="javascript: abrir()">
+
+<DIV id="popup" class="popup">
+<form method="post" action="form-enviar.php">
+Formulario de cadastramento <em>avaeletro.com</em> <br>
+<pre> 
+Seu Nome: <input name="nome"   type="text"  size=34>
+     Rua: <input name="rua"    type="text"  size=34>
+     Cep: <input name="cep"    type="text"  size=9>   Cidade: <input name="cidade" type="text" size=11>
+  Estado: <input name="estado" type="text"  size=9> Telefone: <input name="telefone" type="text" size=11>   
+  E-mail: <input name="email"  type="text"  size=34>
+</pre>
+</form>
+ 
+    
+    
+          <small> <a href="javascript: fechar();">[Salvar] </a> </small>
+          <small> <a href="javascript: cancelar();"> [Cancelar]</a> </small>    
+</DIV>
+     
+
+
+    <br> <a href="javascript:abrir();">Abrir POPUP</a>
+    
+     
+    </body>
+    </html>

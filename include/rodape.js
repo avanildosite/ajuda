@@ -1,0 +1,1 @@
+document.write('<div style="text-align:center; font-size:32px">Mão de obra em até 12X com Paypal <br> Com os cartões</div> <div style="text-align: center"><img src="./images/cartoes-a-ceitos.png" alt="Cartões aceito"></div> ');

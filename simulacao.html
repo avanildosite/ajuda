@@ -1,0 +1,185 @@
+<?php
+// include ('incude/protegido.php');
+ include_once('include/oceano.oco');
+
+?> 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title> Pedreiro em Piracicaba para construções em geral | avanildo.com.br</title>
+  <meta name="author" content="Avanildo Macedo" />
+  <meta http-equiv="content-language" content="pt-br" />
+  <meta name="description" content="Mostrar meus trabalhos em Piracicaba São Paulo" />
+  <meta name="keywords" content="Porcelanato, ceramica, reboco, contra-piso, concreto, carpinteiro, pedreiro, servente" />
+  <link rel="stylesheet" href="include/stilo.css">  
+
+<script src="js/arq.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+function somar( number1, number2 ) {
+  var DECIMAL = 10;
+  return parseInt( number1, DECIMAL ) + parseInt( number2, DECIMAL );
+}
+
+function resu()
+
+{ //funcão para calculo de pestação
+/*
+Para oferecer parcelamento com PayPal:
+2 vezes: 5,5%
+3 vezes: 6,0%
+4 vezes: 6,5%
+5 vezes: 7,5%
+6 vezes: 8,5%
+7 vezes: 9,5%
+8 vezes: 10,5%
+9 vezes: 11,5%
+10 vezes: 12,5%
+11 vezes: 13%
+12 vezes: 13,5%
++6.4 %
+*/
+  
+var n = document.getElementById('valor');
+var n1 = document.getElementById('quantidade');
+var valor=n.value;
+var parcela= n1.value;
+var acre=19;
+
+if (parcela==2){acre=12} 
+else if (parcela==3){acre=12} 
+else if (parcela==4){acre=14}
+else if (parcela==5){acre=14}
+else if (parcela==6){acre=15}
+else if (parcela==7){acre=16}
+else if (parcela==8){acre=16}
+else if (parcela==9){acre=17}
+else if (parcela==10){acre=18}
+else if (parcela==11){acre=19}
+else if (parcela==12){acre=20}
+else {alert("Digite o numero de parcela, minimo 2 e maximo de 12");
+ return(0);
+}
+
+var po1=(valor*acre)/100;//certo
+var va=somar(valor,po1)/parcela;
+var fin= parseFloat(somar(valor,po1), 12).toFixed(2);
+var res1=parseFloat(va, 10).toFixed(2); 
+ document.getElementById("resultado").innerHTML= "<table border='2' width='100%'> <tr> <td>Aproximadamente <strong> R$"+res1+"</strong>  Mensal</td>  <td> Total Final<strong> R$"+ fin+"</strong>   </td><td> Em "+parcela+" Vezes </td></tr></table> ";
+}
+
+function SomenteNumero(e){
+ var tecla=(window.event)?event.keyCode:e.which;
+ if((tecla>47 && tecla<58)) return true;
+ else{
+ if (tecla==8 || tecla==0) return true;
+ 
+  else  {alert("Somente números são permitidos");return false}; 
+ }
+}
+
+</script>
+ 
+ 
+ </head>
+  
+<body background="#221">
+   <!--Inicio do cabeçalho esqueleto de site basiado em div 
+   Corpo do site -->
+   <div id="site">
+   <!--Topo do ite -->
+    <div id="topo">
+         <div id="localisar">        
+            <font size="3">Procurar</font>           
+           <input id="procura" type="text">       
+        </div>       
+           <div id="telefone" >
+             <script>telefone()</script>                            
+
+           </div>   
+        <div id="saudacao">      
+              
+             <script>saudacao()</script>           
+
+        </div>       
+<!--logotipo -->
+        <div id="logo">      
+             <script>logo()</script>    
+        </div>
+ </div>
+      
+<!--menu horizontal  --> 
+<div id="menu-horizontal">
+
+<script  src="include/menu-horizontal.js"></script>
+
+</div>
+
+<!--Menu direito -->
+  <div id="menu">
+      <script  src="include/menu-direito.js"></script>
+     </div>
+
+
+<!--conteudo do site -->
+
+<div id="conteudo">
+
+ 
+
+<table width="100%" >
+<tr>
+ <td align="center" > 
+
+  <h1> Simulação de financiamento </h1> 
+    <hr>
+<img src="images/aceitamos.png" alt="Inlustracão finaciamento paypal" width="480" >
+<div style="text-align:left">
+   
+<font size="2" style="font-family:Helvetica,Arial,Verdana,sans-serif;">
+<hr>
+Atenção quem faz o  financiamento é site Paypal, que pode dividir qualquer valor da sua mão de obra  em  até 12 vezes.<br>
+<br>
+
+<strong><span style="font-size: larger;">Este calculo é ilustrativo</span></strong><br />
+<hr>
+
+ <strong>Digita aqui o valor desejado</strong> <br>
+ <input id="valor" type="text" size="18" onkeypress="return SomenteNumero(event);" /> <br>
+<strong> Numero de parcelas até </strong>12 X <br>
+ <input id="quantidade" type="text" size="18"  onkeypress="return SomenteNumero(event);" /><br>
+<br>
+<input type="button" value="Aplicar" style="font-size:28px" onclick="resu();" /> <br>
+<label id="resultado"style="font-size:25px"> 000000   </label>
+
+<br />
+<br>
+Obrigado por usar nosso sistema de calculo, lembrando que esses dados são apenas ilustrativo<br>
+
+  
+</font>
+
+</div>
+</td>
+ 
+</tr>
+</table>
+
+</div>
+
+  <!--Menu esquerdo -->  
+<div id="menu-esquerdo">
+<script src="include/menu-esquerdo.js"> </script>
+
+
+</div>
+  
+  <!--Roda pe do site -->  
+ <div id="rodape" >
+ <script src="include/rodape.js"> </script> 
+ </div>  
+  </div>
+</body>
+</html>

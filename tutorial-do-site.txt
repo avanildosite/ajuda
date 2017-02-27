@@ -1,0 +1,106 @@
+esta estrutura e para fazer  um menu em css usando  include/stylo.css
+esta biblioteca foi feita por avanildo 
+e usado somente javascript e css e html
+corpo do site
+<div id="site">
+
+
+</div>
+
+esta no arquivo include/menu-direito.php
+<!--Menu direito -->
+<div id="menu5">
+  <ul>
+    <li><a href="#1" title="">Porcelanato</a></li>
+    <li><a href="#2" title="Limpeza de azulejos">Link 2</a></li>
+    <li><a href="#3" title="Link 3">Link 3</a></li>
+    <li><a href="#4" title="Link 4">Link 4</a></li>
+    <li><a href="#5" title="Link 5">Link 5</a></li>
+    <li><a href="#3" title="Link 3">Link 3</a></li>
+    <li><a href="#4" title="Link 4">Link 4</a></li>
+    <li><a href="#5" title="Link 5">Link 5</a></li>  
+  </ul>
+</div> 
+  
+Este e o menu horizontal incluito no mesmo stiolo      
+
+include/menu horizontal.php
+<!--menu horizontal -->
+<div id="menu-horizontal">
+<ul id="saturday">
+  <li><a href="" title=""class="current"> Inicio</a></li>
+  <li><a href="" title="">Serviço </a></li>
+  <li><a href="" title="">Galeria fotos</a></li>
+  <li><a href="" title="">Noticias</a></li>
+  <li><a href="" title="">Contato</a></li>
+  <li><a href="" title="">Sobre nos</a></li>
+ </ul>
+</div>
+
+site estilo css puro
+---------------------------------------------------------------------
+-Titolo ,logo, menu horiontal                                       - 
+-                                                                   -
+---------------------------------------------------------------------
+-Menu direito        -  Conteudo do site           - Menu esquerdo  -
+-                    -                             -                -
+-                    -                             -                -
+-                    -                             -                -
+-                    -                             -                -
+-                    -                             -                -
+-                    -                             -                -
+-                    -                             -                -
+-                    -                             -                -
+-                    -                             -                -
+-                    -                             -                -
+-                    -                             -                -
+-                    -                             -                -
+-                    -                             -                -
+---------------------------------------------------------------------
+-roda pe                                                            - 
+-                                                                   -
+---------------------------------------------------------------------
+
+todo site e feito em css html php
+
+GRADANDO UMA ARRAY INTEIRO NO ARQUIVO
+
+$document[0]="dados1";
+$document[1]="dados2";
+
+file_put_contents ('teste.txt', serialize ($document));
+
+LENDO UMA ARRAY DE UM ARQUIVO
+
+  $document = unserialize (file_get_contents ('teste.txt'));
+  
+  echo $document['title'];
+  echo $document['content']
+gravando um arrai em um araquivo
+<?php
+    $vetor['nome']     = 'Maria';
+    $vetor['telefone'] = '239472934';
+    $vetor['endereco'] = 'Rua das flores';
+    // grava o vetor no arquivo teste.ini
+
+    ini_put_contents('teste.ini', $vetor);
+    
+    
+   
+    /**
+     * Grava um vetor em um arquivo INI
+     */
+    function ini_put_contents($inifile, $content)
+    {
+        $linhas = '';
+        foreach ($content as $key => $content)
+        {
+            $linhas .= "{$key}  =  \"{$content}\"\n";
+        }
+        file_put_contents($inifile, $linhas);
+    }
+    ?> 
+
+
+
+

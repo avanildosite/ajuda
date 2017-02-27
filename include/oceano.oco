@@ -1,0 +1,17 @@
+<?php
+// lista de plavras para o site    
+//session_start();
+
+include_once "site.avanildo";
+$_SESSION['site']="avanildo.com.br";
+$_SESSION['email']="tmp@avanildo.com.br";
+$_SESSION['nome']="avanildo";
+$_SESSION['messagem']="avanildo.com.br";
+
+   $logo="Avanildo";
+   $menu="Menu"; 
+   $telefone="Cel (19)9-8219-3013";
+   $saudacoes="Bem Vindo $usuario";
+   $senha="ead7d7defb9d63d4db300f6abad89c87f24e92c9";
+
+?> 

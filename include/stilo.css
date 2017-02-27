@@ -1,0 +1,305 @@
+
+/*Inico do templait do site 3 coluna */
+
+@import url("responsive.css");
+body {
+ font-family: Verdana, Arial, Helvetica, sans-serif;
+ font-size: 12px;
+ margin: 0px;
+}
+#site {
+ width: 900px;
+ margin: 0px auto;
+}
+#topo {  
+background: url(../images/roda-pe.png) repeat-x;
+
+ height: 100px;
+}
+#logo{position:absolute; 
+top:0px;
+width:300px; 	
+height:80px;
+//border:solid 1px;  
+font-size:70px; 
+text-shadow: 0.1em 0.1em 0.15em #220
+	}
+#saudacao{position:relative; 
+   
+top:50px;
+height:40px; 
+//border:solid 1px;	
+float:right;  
+right:-200px;   
+font-size:26px; 
+color:#fff;
+text-shadow: 0.1em 0.1em 0.15em #000
+}
+
+
+#quadro{font-family:Helvetica,Arial,Verdana,sans-serif;
+   padding:5px;      
+   word-wrap:break-word;	
+	width:94%;
+       	
+	}
+#quadro input{
+   font-size:18;   	
+	} 
+
+#telefone{ 
+	position:relative; 
+  float:right;
+   right:60px;    
+   height:20px; 
+   top:5px; 	   
+   //border:solid 1px; 	
+   font-size:22px; 	
+	
+	} 
+
+#localisar{
+position:relative; 
+float:right;
+height:40px; 
+right:3px; 
+top:20px; 	
+	
+	}		
+#localisar input { 
+height:23px; 
+	
+}
+#menu-horizontal {
+   
+  height: 42px;
+}
+
+#menu{ 
+    position:button;     
+    padding: 10px;
+    width: 180px;
+    float: left;
+    background-color: #BDBD9B;
+    height:800px; 
+
+}
+
+
+#menu-esquerdo{
+    position:button;     
+    width:200px;
+    float:right;
+    background-color: #BDBD9B;
+    height:820px; 
+}
+#titolo{position:relative; 
+   width:200px;   
+   background: url(../images/titolo.png);
+   height:22px; 
+   font-weight:bold;     
+   font-size:16px; 
+   text-align:center; 
+   text-transform:uppercase; 
+}
+
+#conteudo{
+   position:relative; 	
+	word-wrap: break-word;
+    padding: 10px;
+    width: 480px;
+    float: left;
+    background-color: #E7E7DA;
+    //height:800px; 
+}
+#contato{
+   position:relative; 	
+	word-wrap: break-word;
+    padding: 10px;
+    width: 680px;
+    float: right;
+    background-color: #E7E7DA;
+    //height:850px; 
+}
+#rodape {
+ background: url(../images/roda-pe.png) repeat-x;
+ left:100px; 
+ color:#0A0A2A;
+ clear: both;
+ height:100px; 
+ font-size:15px;  
+ }
+ 
+#rodape table {
+width:80%;
+border-spacing:solid;   	
+	
+	}
+#rodape table td {
+	padding-left: 30px;	
+	border-right-width:0.1px;
+	border-right-style:solid;  	
+	
+	}
+#rodape li{
+list-style: 	
+	}
+/*Fim do templeit do site e inicio inico do menu horizontal */
+
+ul#saturday {
+   margin:0;
+	padding:0;
+	list-style-type:none;
+	width:auto;
+	position:relative;
+	display:block;
+	height:36px;
+	text-transform:uppercase;
+	font-size:12px;font-weight:bold;
+	background:transparent url("../images/bgOFF.gif") repeat-x top left;
+	font-family:Helvetica,Arial,Verdana,sans-serif;
+	border-bottom:4px solid #336666;
+	border-top:1px solid #C0E2D4;
+}
+
+
+ul#saturday li {
+	display:block;
+	float:left;
+	margin:0;
+	padding:0;
+}
+
+ul#saturday li a {
+	display:block;
+	float:left;
+	color:#874B46;
+	text-decoration:none;
+	padding:12px 20px 0 20px;
+	height:24px;
+	background:transparent url("../images/bgDIVIDER.gif") no-repeat top right;
+}
+
+ul#saturday li a:hover {
+	background:transparent url("../images/bgON.gif") no-repeat top right;
+	color:#ff0; 
+}
+
+ul#saturday li a.current, ul#saturday li a.current:hover {
+	color:#fff;
+	background:transparent url("../images/bgON.gif") no-repeat top right;
+}
+/*fim Menu horizontal inicio do menu vertical*/
+
+
+#menu5 {
+	
+	width: 180px;
+	margin: 0px;
+}
+	
+#menu5 li a {
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	text-decoration: none;
+}	
+	
+#menu5 li a:link, #menu5 li a:visited {
+	color: #FFF;
+	display: block;
+	background:  url(../images/menu5.gif);
+	padding: 8px 0 0 10px;
+}
+	
+#menu5 li a:hover {
+	color: #FFF;
+	background:  url(../images/menu5.gif) 0 -32px;
+	padding: 8px 0 0 10px;
+}
+#menu5 ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #BDBD9B;
+}
+
+/* conteudo de tabs*/
+div.content {
+	border: #48f solid 3px;
+	clear: left;
+	padding: 1em;
+}
+
+ol#toc {
+	height: 2em;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ol#toc a {
+	background: url(../images/tab.jpg) 100% 0;
+	color: #008;
+	float: left;
+	line-height: 2em;
+	outline: none;
+	padding-right: 10px;
+	text-decoration: none;
+}
+
+ol#toc li.current {
+	background-color: #48f;
+	background-position: 0 -60px;
+}
+
+ol#toc li.current a {
+	background-position: 100% -60px;
+	color: #fff;
+	font-weight: bold;
+}
+
+ol#toc li {
+	background: #bdf url(../images/tab.jpg);
+	float: left;
+	margin: 0 1px 0 0;
+	padding-left: 10px;
+}
+
+/* mais tab*/
+ul.tabs { list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
+ul.tabs li { float: left; padding: 0;
+margin: 0; padding-top: 0;
+background: url(../images/tab_right.png) no-repeat right top;
+ margin-right: 1px; }
+
+ul.tabs li a { display: block;
+    padding: 0px 10px;
+    color: #fff;
+    text-decoration: none;
+    background: url(../images/tab_left.png)
+    no-repeat left top; } 
+    
+    ul.tabs li a:hover { color: #ff0; }
+/*poup em uma div peggado da internete*/ 
+
+    #popup{
+    position:relative; /*Define a posição absoluta da pop-up*/
+    width: 100%; /*Largura da pop-up*/
+    height: 300px; /*Altura da pop-up*/
+    background: #ccc; /*Cor de fundo da pop-up*/
+    color: #000066; /*Cor do texto da pop-up*/
+    display: none; /* Estilo da pop-up*/
+    /*fim pop-up*/
+    }
+    
+    
+    
+    
+
+ 

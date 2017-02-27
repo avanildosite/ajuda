@@ -1,0 +1,30 @@
+<?php
+if(!empty($_POST))
+{
+   $emailsender = "contato@". $_SERVER[HTTP_HOST];	
+	$cab ="MIME-Version: 1.1\r\n";
+	$cab.="Content-type: text/plain; charset=iso-8859-1\r\n";
+	$cab.="From: ".$_POST['nome']." <".$_POST['email'].">\n" ;
+   $cab.="Reply-To: avanildo.macedo@gmail.com\n"; 
+       	
+   $mensagem= "Contato via site - avanildo.com.br\n";
+	$mensagem.= "Nome: ".$_POST['nome']." \n";
+	$mensagem.= "Email: ".$_POST['email']." \n";
+	$mensagem.= "Telefone: ".$_POST['fone']." \n";
+	$mensagem.= "Mensagem:". $_POST['mensagem'];
+	
+	$status=mail("avanildo.macedo@gmail.com", "Contato do site avanildo.com.br", $mensagem,$cab,"r".$emailsender) ;
+}
+
+if($status)
+    echo "<script> alert('Formulário enviar com sucesso.'); </script>";
+else
+    echo "<script> alert('Falha ao enviar o Formulário.'); </script>";
+ 
+echo "<script> window.location.href = 'index.php'; </script>";
+?> 
+
+
+<?php
+
+

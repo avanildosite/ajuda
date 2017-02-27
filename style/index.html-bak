@@ -1,0 +1,276 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//pt-BR">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE>Vendas Eletroeletronico </TITLE>
+	<meta name="generator" content="kwrite kde" >
+	<META NAME="CREATED" CONTENT="08-0502013 Por avanildo macedo">
+	<META NAME="CHANGED" CONTENT="10-04-2013">
+        <link type='text/css' rel='stylesheet' href='stilo.css'>      
+
+
+<script type="text/javascript">
+
+//SuckerTree Vertical Menu 1.1 (Nov 8th, 06)
+//By Dynamic Drive: http://www.dynamicdrive.com/style/
+
+
+var menuids=["suckertree1"] //Enter id(s) of SuckerTree UL menus, separated by commas
+function buildsubmenus(){
+  for (var i=0; i<menuids.length; i++){
+  var ultags=document.getElementById(menuids[i]).getElementsByTagName("ul")
+  for (var t=0; t<ultags.length; t++){
+  ultags[t].parentNode.getElementsByTagName("a")[0].className="subfolderstyle"
+  if (ultags[t].parentNode.parentNode.id==menuids[i]) //if this is a first level submenu
+  ultags[t].style.left=ultags[t].parentNode.offsetWidth+"px" //dynamically position first level submenus to be width of main menu item
+  else //else if this is a sub level submenu (ul)
+  ultags[t].style.left=ultags[t-1].getElementsByTagName("a")[0].offsetWidth+"px" //position menu to the right of menu item that activated it
+  ultags[t].parentNode.onmouseover=function(){
+  this.getElementsByTagName("ul")[0].style.display="block"
+}
+  ultags[t].parentNode.onmouseout=function(){
+  this.getElementsByTagName("ul")[0].style.display="none"
+}
+}
+  for (var t=ultags.length-1; t>-1; t--){ //loop through all sub menus again, and use "display:none" to hide menus (to prevent possible page scrollbars
+  ultags[t].style.visibility="visible"
+  ultags[t].style.display="none"
+}
+}
+}
+
+if (window.addEventListener)
+    window.addEventListener("load", buildsubmenus, false)
+else if (window.attachEvent)
+    window.attachEvent("onload", buildsubmenus)
+
+</script>
+</HEAD>
+
+
+<BODY LANG="pt-BR" DIR="LTR" >
+<!-- Corpop dda pagina       -->
+
+<div id=topo name="principal">
+<TABLE WIDTH=100%>
+<TR> <TD WIDTH="13%" HEIGHT=81 >
+	
+<!-- Logo tipo avaeletro        
+<P ALIGN=CENTER STYLE="background: transparent"> <FONT SIZE=7> Ava<FONT COLOR="ff0000"> <FONT FACE="Century Schoolbook L, serif"><FONT SIZE=7 STYLE="font-size: 54pt">E</FONT></FONT></FONT>letro</FONT></P>  
+-->
+
+<img src="image/logo.png" alt="Logo tipo" width="100%" height="100%">
+</TD>
+		<TD WIDTH=123>
+		<!-- Paner da pagina       -->	
+
+<img src="image/logotipochines.png" alt="Frete gratuito para todo brasil" width="100%"  height="81">
+</TD>
+	</TR>
+
+
+<!--Inicio da tabela de dados html-->
+</table>
+<!--_________________________________________________________________________________________________-->
+
+<!-- Menu horizontal   
+
+     <img src="caminho da imagem que desejas aumentar jpg, png etc" width="150" height="150" name="aumentar_imagem"
+onmouseover="aumentar_imagem.width='300';aumentar_imagem.height='300';"
+onmouseout="aumentar_imagem.width='150';aumentar_imagem.height='150';" />
+_______________________________________________________________
+cooque os links das paginas dáqui em diante  estrutura é 
+-->
+
+<div id='NavbarMenu'>
+<div id='NavbarMenuleft'>
+<ul id='nav'>
+<li><a href="index.php">Pagina Inicial</a></li>
+<li>
+<a href='index.php'>Home</a>
+
+<ul>
+
+<!--no lugar de '#' coloque oslink como {<a herf='link' texto ou imagem >  </a> } -->
+
+<li><a href='#'>Celurar </a></li>
+<li><a href='#'>Automotivo</a></li>
+<li><a href='#'>casa Jardim</a></li>
+<li><a href='#'>Relogio</a></li>
+<li><a href='#'>Jardim</a></li>
+</ul>
+
+</div>
+</div>
+<div style='clear:both;'/>	
+<!--_________________________________________________________________________________________________-->
+<!-- <== menu esquerdo começa aqui-->
+<div align="left" name="menu1" id="menu-lateral">
+
+<div class="suckerdiv">
+<ul id="suckertree1">
+
+<div id=h2 class="titolo">
+   Categoria
+ </div>  
+
+
+<li><a href="#">Celular</a></li>
+<li><a href="#">Automotivo</a> </li>
+<li><a href="#">Casa e Jardim</a></li>
+<li><a href="#">Assecorio</a> </li>
+<li><a href="#">Relogio</a></li>
+<li><a href="#">Assecorio Celular</a></li>
+<li><a href="#">Feminino</a></li>
+<li><a href="#">Masculino </a></li>
+<li><a href="#">Pescaria</a></li>
+<li><a href="#">Esporte</a></li>
+</ul>
+
+
+</div>
+     <hr>
+<div id=h1 class="titolo">
+   Page com
+</div>      
+ <img src="image/moip.jpeg" width="100%" left=0%>
+    
+<div id=h1 class="titolo">
+   Destaque
+</div>  
+<img src="image/moip.jpeg" width="100%" left=0%>
+
+ <br>
+<br>
+<br> 
+  
+<!--_________________________________________________________________________________________________-->
+
+<!--Inicio menu direito começa aqui ===> -->
+
+<div align="left" name="menu1" id="menu-lateral-direito">
+  <div id=h1 class="titolo">
+   Mais Vendido
+ </div>  
+  
+  
+  <img src="image/moip.jpeg" width="100%" left=0%>
+  <img src="image/moip.jpeg" width="100%" left=0%>
+<div id=h1 class="titolo">
+   Oferta
+</div>  
+  <img src="image/moip.jpeg" width="100%" left=0%> 
+<br>
+<!-- Este e o final do meni do lado direito-->
+<br>
+
+</div>
+
+</div>
+
+<!--_________________________________________________________________________________________________-->
+<!--quadro do meio para informacoes de protuto-->
+<div id="quadro-meio" name="meio">
+<!--Coloque aqui o conteudo do site-->
+
+<div id=produto  name="produto"> 
+<br>  
+<img src="p-venda/189950/189950_1.jpg" width="200" height="200">
+
+<div id="h2" class="preco">  
+  Preço R$ 199,00
+</div >              
+
+<div id="h2"  class="pagar">  
+  Detales
+</div >              
+
+</div>
+<!--
+   segundo produto
+-->
+<br>
+<div id=produto  name="produto"> 
+Celular de fácil uso 
+<img src="p-venda/189950/189950_1.jpg" width="200" height="200">
+
+<div id="h2" class="preco">  
+  Preço R$ 199,00
+</div >              
+
+<div id="h2"  class="pagar">  
+  Detales
+</div >              
+
+</div>
+
+
+<!--
+  terceiro  produto
+-->
+<br>
+<div id=produto  name="produto"> 
+Celular de fácil uso 
+<img src="p-venda/189950/189950_1.jpg" width="200" height="200">
+
+<div id="h2" class="preco">  
+  Preço R$ 199,00
+</div >              
+
+<div id="h2"  class="pagar">  
+  Detales
+</div >              
+
+</div>
+
+
+<!-- _________________________________________________________________-->
+
+</div>
+
+
+<!--_________________________________________________________________________________________________-->
+
+<!--roda pe da pagina-->
+
+
+<div id="roda-pe" name="roda-pe" >
+
+<!--conteudo do roda-pe-->
+
+<table cellspacing="5" cellpadding="10" >
+<tr>
+<TD>
+   <h3> Dados</h3>
+   <a href="#">Sobre nos</a> <br>
+    <a href="#">Contate-nos</a><br>
+    <a href="#">Termo e condições</a><br>
+</td>
+
+<TD>
+   <h3> Informações gerais</h3>
+   <a href="#">Como comprar</a><br>
+   <a href="#">Envio e pagamento</a> <br>
+   <a href="#">Duvidas</a><br>
+
+</td>
+
+ 
+</tr>
+ </table>     
+
+<img src="image/rodape.jpg" width="100%" height="50%">
+   
+Loja 1.0  avaeletro@gmail.com
+ 
+ <br>
+
+</div>
+
+</div>
+
+<!--_________________________________________________________________________________________________-->
+<!--Fim da pagina-->
+</body>
+
+</HTML>

@@ -1,0 +1,141 @@
+<?php
+// include ('incude/protegido.php');
+ include_once('include/oceano.oco');
+ echo "<script>  </script> ";
+?>
+
+ 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Avanildo.com.br Prestando bom serviço em Piracicaba :Administrativa </title>
+  <meta name="author" content="Avanildo Macedo" />
+  <meta http-equiv="content-language" content="pt-br" />
+  <meta name="description" content="Pagina restrita" />
+  <meta name="keywords" content="Administrativa" />
+  <meta name="robots" content="noindex" />
+  <link rel="stylesheet" href="include/stilo.css">  
+  <link rel="stylesheet" href="include/responsive.css">
+<script src="js/arq.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+var j="testando variável php";	
+
+ 
+function retorno()
+{  
+   j=prompt("Digite a Senha Para Acessar Esta  Pagina");
+if (j == ""){alert('Senha incorreta, digite a senha novamente')
+             location.reload();
+return(j); 
+ }
+
+
+}
+
+
+</script>
+ 
+ 
+ </head>
+  
+<body background="#221">
+   <!--Inicio do cabeçalho esqueleto de site basiado em div 
+   Corpo do site -->
+   <div id="site">
+   <!--Topo do ite -->
+     <div id="topo">
+         <div id="localisar">        
+            <font size="3">Procurar</font>           
+           <input id="procura" type="text">       
+        </div>       
+           <div id="telefone" >
+             <script>telefone()</script>                            
+
+           </div>   
+        <div id="saudacao">      
+              
+             <script>saudacao()</script>           
+
+        </div>       
+<!--logotipo -->
+        <div id="logo">      
+             <script>logo()</script>    
+        </div>
+ </div>
+      
+<!--conteudo do site -->
+
+<div style="width:100%">
+
+<table width="100%">
+<tr>
+ <td align="center" > 
+
+  <h1> Avanildo Construções  Areá Administrativa </h1> 
+    <hr>
+<!--<img src="images/image5.png" alt="" align="center" >  -->
+<div style="text-align:left">
+   
+<font size="3" style="font-family:Helvetica,Arial,Verdana,sans-serif;">
+
+ Somos uma empresa empreiteira   na area de construção civil com esperancia no ramo.<br />
+ Já trabalhamos em muitas obras, grandes e pequenas.<br />
+ <br>
+ 
+ 
+ Nosso compromisso Sempre é com a responsabilidade,<br />
+ eficiência, pontualidade e qualidade.<br />
+<br />
+ Somos uma equipe de trabalho simples mas eficiente.<br />
+ Contate-nos<br />
+
+<strong>Se preciso temos engenheiro responsável.</strong>  
+</font>
+</br>
+
+<script> var j1=prompt('Digite a Senha Para Acessar Esta  Pagina'); </script>
+
+<?php
+echo"Usuario :".$_SESSION['nome']."<br>";
+echo"  Senha :".$_SESSION['senha']."<br>";
+
+$dado=" <script> document.write(j1); </script>";
+$s=sha1("$dado");
+if ($s == $senha){
+   echo "<hr>Este foi o dado digitado  $dado<br> Mais sua senha: $senha <br><hr> ";   
+}
+else { echo "SENHA ERRADA <br> ";};
+
+echo ":".$s.":";
+?>
+
+
+
+<script type="text/javascript" >
+     document.write('<br>Ola avanildo <br>');
+ </script>
+
+
+</div>
+</td>
+ 
+</tr>
+</table>
+
+</div>
+
+
+  <!--Roda pe do site -->  
+ 
+<hr>
+ <font size="3">
+    Área Administrativa 
+ </font>
+     
+   
+  </div>
+</body>
+</html>

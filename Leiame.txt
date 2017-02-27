@@ -1,0 +1,15 @@
+Este site foi feito localmente em html css e javascript puro
+é um site basico e pode ser Hospedado no google drive, dropbox
+usando meta base como  referencia e assim usar este site em nuvem.
+
+algumas dica para melho configuracao do site.
+os slider e de 640X250
+as imagem dos produtos sao  escalonada nos quadro de imagem
+nome das imagem começa com "ix.jpg", sedo colocada dentro de sua pasta respectivas.
+e muito facil administrar os produtos com este site.
+logicamente que ele foi feito para pequinos site ,menos de 100 produtos mas podemos 
+personalisar ele do jeito que quiser.
+
+
+
+ 

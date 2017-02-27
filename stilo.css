@@ -1,0 +1,439 @@
+ 
+/* NavbarMenu alterado por avanildo macedo este css sera o principal
+  para desenvolvimento de qualque site 2013
+  biblioteca de estilos feito por avanildo pereira macedo
+*/
+
+
+body{ background:url(image/fundo1.png);
+background-repeat: repeat-x;
+margin:0px auto;
+padding:0;
+ width:80%;
+text-align:center; /* hack para o IE */
+}
+ #popup{
+    position: absolute;
+    top: 10%;
+    left: 15%;
+    width: 450px;
+    height: 200px;
+    padding: 20px 20px 20px 20px;
+    border-width: 5px;
+    border-style: solid;
+    background: #ffffa0;
+    display: none;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 5px 5px 5px 5px #000000;    
+}
+
+li{
+font-size:16; 	
+	
+	}
+Table
+{
+    border-radius: 9px 9px 0px 0px;
+}
+tr
+{
+    border-radius: 9px 9px 0px 0px;
+}
+td
+{
+    border-radius: 9px 9px 0px 0px;
+}
+
+#conteudo{position:relative; /* conteudo do site*/
+   top:button;    
+   width:100%%x;
+   float: left;margin:0px auto;padding: 0;
+    /*border:1px solid;*/	
+	} 
+
+
+#topo{ position:absolute; /* topo do site. logo banner"*/ 
+   top:0;    
+   left:10%;
+   width:1000px;
+   float: left;margin: 0 auto;padding:0;
+   /*border:1px solid;*/
+    text-align:left; /* "remédio" para o hack do IE */	
+  }
+
+
+#menu-lateral{ position:relative; /*menu lateral informacoes em geral*/  
+  top:botton;    
+   left:0px;
+   width:170px;
+   float: left;margin: 0;padding: 0;
+  border-radius: 9px 9px 9px 9px;
+   //border:1px solid;
+  box-shadow: 0 0 1px 1px #000000;
+}
+#menu-lateral-direito{ position:absolute; /* tambem informacoes gerais*/
+   top:button;    
+   top:0;    
+   left:830px;
+   width:167px;
+	float: left;margin: 0;padding: 0;
+  //border:1px solid;
+  border-radius: 9px 9px 9px 9px;
+  box-shadow: 0 0 1px 1px #000000;
+  
+}
+
+#quadro-meio{ position:absolute; /* conteudo do site*/
+   top:button;    
+   left:175px;
+   width:656px;
+  float: left;margin: 0;padding: 0;
+  
+}
+
+#produto /* produto do site */
+{ width:211px;
+  height:300px;
+  //border:1px solid;
+  border-radius: 9px 9px 9px 9px;
+  box-shadow: 0 0 1px 1px  #000000
+  
+}
+
+
+
+#roda-pe{ position:absolute; /*informacoes do site e outros */
+   width:100%;   
+   top:100%; 
+   background-color:#666666;   
+   left:0;   	
+   //float:left;margin: 0;padding: 0;  
+   color:#ffffff;    
+   /*border:1px solid;*/
+}
+
+#h1.titolo{//conteudo dos menus esquerdo ou direito  
+     width:172px;              /*largura do quadro*/
+     background-color:#FF0000; /* cor do texto */  	
+     color:#ffffff;            /* cor do texto*/
+     /*text-decoration:blink;     texto pisca */ 
+     height:37px; 
+     font-size: 25px;
+     border-radius: 9px 9px 0px 0px;	
+  
+}
+#h2.titolo{//conteudo dos menus esquerdo ou direito  
+     width:172px;              /*largura do quadro*/
+     background-color:#FF0000; /* cor do texto */  	
+     color:#fff;            /* cor do texto*/
+     /*text-decoration:blink;     texto pisca */ 
+     height:37px; 
+     font-size: 20px;
+     border-radius: 9px 9px 0px 0px;
+     
+
+     
+}
+	
+#h2.preco{//conteudo dos menus esquerdo ou direito  
+     width:200px;              /*largura do quadro*/
+     background-color:#FF0000; /* cor do texto */  	
+     color:#fff;            /* cor do texto*/
+     /*text-decoration:blink;     texto pisca */ 
+    text-align: center;
+     height:37px; 
+     font-size: 20px;
+     border-radius: 9px 9px 9px 9px;	
+}	
+
+#h2.pagar{//conteudo dos menus esquerdo ou direito  
+     width:200px;              /*largura do quadro*/
+     background-color:#00FF00; /* cor do texto */  	
+     color:#000000;            /* cor do texto*/
+     /*text-decoration:blink;     texto pisca */ 
+     
+     text-align: center;
+     height:37px; 
+     font-size: 20px;
+     border-radius: 9px 9px 9px 9px;
+}
+
+h4{//conteudo dos menus esquerdo ou direito  
+     width:100%;         /*largura do quadro*/
+     background-color:#00FF00; /* cor do texto */  	
+     color:#000000;            /* cor do texto*/
+     /*text-decoration:blink;     texto pisca */ 
+     
+     text-align: center;
+     height:18x; 
+     font-size: 14px;
+     border-radius: 9px 9px 9px 9px;
+}
+
+
+#h2.pagamento{//conteudo dos menus esquerdo ou direito  
+    //  width:50px;              /*largura do quadro*/
+     background-color:#00FF00; /* cor do texto */  	
+     color:#000000;            /* cor do texto*/
+     /*text-decoration:blink;     texto pisca */ 
+     
+     text-align: center;
+     height:37px; 
+     font-size: 20px;
+     border-radius: 9px 9px 9px 9px;
+     box-shadow: 0 0 5px 5px  #000000
+  
+}
+
+
+#h2.lista{//conteudo para lettras pequenas no titolo  
+     width:200px;              /*largura do quadro*/
+     background-color:#00FF00; /* cor do texto */  	
+     color:#000000;            /* cor do texto*/
+     /*text-decoration:blink;     texto pisca */ 
+     
+     text-align: center;
+     height:20px; 
+     font-size: 15px;
+     border-radius: 9px 9px 9px 9px;
+}
+
+
+
+/* define os quadro de imagem para produtos*/ 
+ #qua1
+{ position:relative;
+width:350px;
+height:50px;
+left:0;
+//border:1px solid;
+}
+#qua3
+{ position:relative;
+   width:350px;
+     
+} 
+
+#qua2 {position:relative;
+width:100%;
+left:9;
+ border-radius: 9px 9px 9px 9px;
+ box-shadow: 0 0 1px 1px #000000;
+}
+#qua4
+{ position:relative;
+   width:200px;
+   left:30%
+} 
+
+
+ /*fim de definicao dos produtos*/
+ #NavbarMenu {
+background: #555 url(image/navbar.png);
+width: 100%;height: 35px;
+font-size:16px;
+font-family: Arial, Tahoma, Verdana;
+color: #FFF;/*--cor do link--*/
+font-weight: bold;margin: 0;padding: 0;text-transform: capitalize;
+// border-radius: 9px 9px 9px 9px;
+   
+}
+img{
+  border-radius: 9px 9px 9px 9px;
+  //box-shadow: 0 0 1px 1px #000000;
+}
+#NavbarMenuleft {
+width: 100%;float: left;margin: 0;padding: 0;
+}
+
+#nav {
+margin: 0;
+padding: 0;
+
+  
+}
+
+#nav ul {
+float: left;list-style: none;margin: 0;padding: 0;
+}
+#nav li {
+list-style: none;margin: 0;padding: 0;
+  
+}
+#nav li a, #nav li a:link, #nav li a:visited {
+color: #FFF; /*--edite cor do link--*/
+display: block;
+font-size: 16px;/*--tamanho da fonte do link--*/
+font-family: Georgia, Times New Roman;font-weight: normal;text-transform: capitalize;
+margin: 0;padding: 9px 15px 8px;border-right: 1px solid #fff;
+// border-radius: 9px 9px 9px 9px;
+  
+}
+#nav li a:hover, #nav li a:active {
+background: #555 url(image/navbar1.png);
+color: #FFF;  /*--edite cor do link hover--*/
+margin: 0;padding: 9px 15px 8px;
+text-decoration: none;
+}
+#nav li li a, #nav li li a:link, #nav li li a:visited {
+background: #AC0000;/*--cor de fundo do menu de decida--*/
+width: 150px;
+color: #FFF; /*--cor do link--*/
+font-size: 16px;font-family: Georgia, Times New Roman;font-weight: normal;text-transform: capitalize;
+float: none;margin: 0;padding: 7px 10px;
+border-bottom: 1px solid #FFF;
+border-left: 1px solid #FFF;
+border-right: 1px solid #FFF;
+}
+#nav li li a:hover, #nav li li a:active {
+background: #FA0000;/*--cor de fundo hover do menu de decida--*/
+color: #FFF; /*--cor do link--*/
+padding:7px 10px;
+}
+#nav li {float: left;padding: 0;
+ 
+}
+
+#nav li ul {z-index: 9999;position: absolute;left: -999em;height: auto;width: 170px;margin: 0;padding: 0;
+}
+#nav li ul a {width: 140px;
+font-size:14px; 
+font-family: Georgia, Times New Roman;font-weight: normal;text-transform: capitalize;
+}
+
+#nav li ul ul {margin: -32px 0 0 171px;}
+#nav li:hover ul ul, #nav li:hover ul ul ul, #nav li.sfhover ul ul, #nav li.sfhover ul ul ul {
+left: -999em;}
+#nav li:hover ul, #nav li li:hover ul, #nav li li li:hover ul, #nav li.sfhover ul, #nav li li.sfhover ul, #nav li li li.sfhover ul {left: auto;}
+#nav li:hover, #nav li.sfhover {position: static;}
+
+
+/* Menu em Abas CSSTabs
+--------------------------- */
+#csstabs {
+height: 280px; /* altura total da área */
+margin:0 auto;
+position:relative;
+width: 100%;
+}
+#csstabs h3 { /* títulos das abas */
+color: #000;
+cursor: pointer;
+display: block;
+font-size: 15px;
+font-weight: bold;
+height: 25px;
+margin: 0;
+padding: 5px 5px 5px 5px;
+text-align: left;
+border-top:1px solid #000;
+border-left:1px solid #000;
+border-right:1px solid #000;
+}
+.tabcontent { /* conteúdo das abas */
+display: block;
+height: auto;
+width:100%;
+padding:15px 0 5px 0px;
+border:1px solid #000;
+}
+#csstabs:hover h3, #tabs:focus h3, #tabs:active h3 {
+z-index: 0;
+background:none;
+}
+#csstabs:hover .tabcontent, #tabs:focus .tabcontent, #tabs:active .tabcontent {
+opacity: 0;
+z-index: 0;
+}
+
+#tab1 .tabcontent {
+background-color: #ddd;
+position:absolute;
+left:0;
+top:35px;
+height: 200px; /* altura total do conteúdo da aba 1 */
+z-index: 2;
+}
+#tab1 h3 {
+left: 0;
+position: absolute;
+top: 0;
+z-index: 3;
+background-color: #ddd; 
+}
+
+#tab1:hover h3, #tab1:focus h3, #tab1:active h3 {
+background-color: #ddd;
+color: #565A63;
+z-index: 4;
+}
+#tab1:hover .tabcontent, #tab1:focus .tabcontent, #tab1:active .tabcontent {
+opacity: 1;
+z-index: 3;
+}
+
+#tab2 .tabcontent {
+background-color: #E6EAF3;
+height: 200px; /* altura total do conteúdo da aba 2 */
+opacity: 0;
+top:35px;
+z-index: 1;
+position:absolute;
+}
+#tab2 h3 {
+left: 120px;
+position: absolute;
+top: 0;
+}
+
+#tab2:hover h3, #tab2:focus h3, #tab2:active h3 {
+background-color: #E6EAF3;
+color: #565A63;
+z-index: 4;
+}
+#tab2:hover .tabcontent, #tab2:focus .tabcontent, #tab2:active .tabcontent {
+opacity: 1;
+z-index: 3;
+}
+
+/* Menu lateral*/
+.suckerdiv ul{
+margin: 0;
+padding: 0;
+list-style-type: none;
+width: 170px; /* Largura Menu Items */
+}
+.suckerdiv ul li{
+position: relative;
+}
+/*Sub menu items */
+.suckerdiv ul li ul{
+position: absolute;
+width: 172px; /*largura sub menu*/
+top: 0;
+visibility: hidden;
+}
+/* estilos dos links */
+.suckerdiv ul li a{
+display: block;
+overflow: auto;
+color: black;
+text-decoration: none;
+background: #fff; /*edite cor */
+padding: 1px 5px;
+border-bottom: 1px solid #ccc; /*edite borda */
+}
+.suckerdiv ul li a:visited{
+color: black;
+}
+.suckerdiv ul li a:hover{
+background-color:#FF0000 /*edite  cor */
+}
+.suckerdiv .subfolderstyle{
+background: url(image/fv8xz4.gif) no-repeat center right;
+}
+
+/* Holly Hack for IE */
+* html .suckerdiv ul li { float: left; height: 1%; }
+* html .suckerdiv ul li a { height: 1%; }
+/* End */

@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+/* main */
+
+/********** slider **********/
+.slider {background: url(image/bg_slider.gif) top center repeat-x;
+ margin:0 auto;
+ padding:0;
+ height:250px; 
+ position:relative;
+ border-radius: 2px 2px 2px 2px;
+  }
+
+.slider div.slice1 { margin:0 auto;
+ width:100%;
+  padding:0;
+  }
+.slider div div div { margin:0;
+padding:0;
+width:100%;
+border:1;
+}
+
+.slider div div div p.img { float:left;
+ width:100%%;
+ padding:2px 0 0 0;
+ margin:0;
+ color:#000;
+ border-radius: 2px 2px 2px 2px;
+ 
+ }
+.slider div div div h2 {width:100%; float: left; font:bold 36px Arial, Helvetica, sans-serif; color:#fff;  margin:0; padding:2px 0 0 10px; line-height:1.2em; text-transform:uppercase;}
+.slider div div div p { width:100%; float: left; font:normal 11px   Arial, Helvetica, sans-serif; color:#FFF; margin:0; padding:20px 0 0 10px; line-height:1.8em;}
+/********* slider2 ************/
+.slider2 {background: #fff url(image/slider_bg2.gif) top repeat-x; margin:0 auto; padding:0; height:89px;}
+.slider2_resize { width:100%; margin:0 auto; padding:0;}
+.slider2_resize h2 {width:100%; float: left; font:bold 36px Arial, Helvetica, sans-serif; color:#fff;   margin:0; padding:20px 0 0 30px; line-height:1.2em; text-transform:uppercase;}
+.sliderfreecpanel_resize h2 {width:100%; float: left; font:bold 36px Arial, Helvetica, sans-serif; color:#fff;   margin:0; padding:20px 0 0 30px; line-height:1.2em; text-transform:uppercase;}
+
+
+.slider2_resize p { width:100%; float: left; font:normal 10px   Arial, Helvetica, sans-serif; color:#fff; margin:0; padding:20px 0 0 10px; line-height:1.8em;}
+
+
+caption {
+		padding: 0 0 .5em 0;
+		text-align: left;
+		font-size: 1.4em;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: #fff;
+		background: transparent;
+}
+
+
+#slider { margin:0; padding:0; list-style:none; }
+#slider ul,
+#slider li { margin:0; padding:0; list-style:none; }
+/* 
+    define width and height of list item (slide)
+    entire slider area will adjust according to the parameters provided here
+*/
+#slider li { width:640px; height:250px; overflow:hidden; padding:0; margin:0; }
+p#controls { margin:0; position:relative; }
+#prevBtn,
+#nextBtn { display:block; margin:0; overflow:hidden; width:29px; height:29px; position:absolute; left:0px;top:-30px;  }
+#nextBtn { left:627px; }
+#prevBtn a { display:block; width:29px; height:29px; background:url(image/l_arrow.gif) no-repeat 0 0; }
+#nextBtn a { display:block; width:29px; height:29px; background:url(image/r_arrow.gif) no-repeat 0 0; }

@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cadastro</title>
+</head>
+<body>
+	<font face="arial">
+		<h1>Cadastro</h1>
+		<form name="cadastro" class="cadastro" id="cadastro" method="POST" action="cadastro.php">
+				<label for="login"><b>Nome de usuário:</b></label>
+				<br />
+				<input type="text" name="login" class="login" id="login" placeholder="Login">
+				<br />
+				<br />
+				<label for="senha"><b>Senha:</b></label>
+				<br />
+				<input type="password" name="senha" class="senha" id="senha" placeholder="Senha" onkeyup="javascript:verifica()" onkeypress="checar_caps_lock(event)" >
+				<br />
+				<br />
+				<input type="submit">
+		</form>
+	</font>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<html>
+<head> 
+<title>.: PHP Thumbnails :.</title> 
+<script>
+function imagems(qual){// amplia a imagem
+  var img = document.getElementById("imagem");//funcao pa selecionar a div
+  img.src = qual;
+}
+</script>
+
+</head> 
+<body> 
+<div>
+
+  <img src="antiga/01.jpg" id="imagem" border="15" width="300" height="400">
+
+ <ul>
+<a href="javascript: imagems('antiga/01.jpg')"><img src="thumb.php?img=antiga/01.jpg" alt=""></a>
+<a href="javascript: imagems('antiga/02.jpg')"><img src="thumb.php?img=antiga/02.jpg" alt="" > </a> 
+<a href="javascript: imagems('antiga/03.jpg')"><img src="thumb.php?img=antiga/03.jpg" alt="" > </a>
+<a href="javascript: imagems('antiga/04.jpg')"><img src="thumb.php?img=antiga/04.jpg" alt="" > </a>
+<a href="javascript: imagems('antiga/05.jpg')"><img src="thumb.php?img=antiga/05.jpg" alt="" ></a>
+<a href="javascript: imagems('antiga/06.jpg')"><img src="thumb.php?img=antiga/06.jpg" alt="" ></a>
+<a href="javascript: imagems('antiga/07.jpg')"><img src="thumb.php?img=antiga/07.jpg" alt="" ></a>
+<a href="javascript: imagems('antiga/08.jpg')"><img src="thumb.php?img=antiga/08.jpg" alt="" </a> 
+ 
+    <!-- Usando o thumb.php para criar as miniaturas apartir das
+	fotos originais -->	
+ 
+ </ul>	
+</div>	
+</body> 
+</html> 
