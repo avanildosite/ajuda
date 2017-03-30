@@ -9,6 +9,7 @@ nome das imagem começa com "ix.jpg", sedo colocada dentro de sua pasta respecti
 e muito facil administrar os produtos com este site.
 logicamente que ele foi feito para pequinos site ,menos de 100 produtos mas podemos 
 personalisar ele do jeito que quiser.
+so para teste
 
 
 
